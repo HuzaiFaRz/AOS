@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AOS - Animate on scroll library</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="main-bg">
+        <header class="w-100">
+          <nav
+            class="d-flex justify-content-end align-items-center w-100 px-3 py-3"
+          >
+            <img src="nav-logo.png" alt="Nav-Logo" class="nav-logo" />
+          </nav>
+        </header>
+
+        <section
+          class="section-home d-flex flex-column justify-content-around align-items-center w-100"
+        >
+          <div
+            class="container-fluid container-home d-flex flex-column justify-content-center align-items-center text-center"
+          >
+            <h1
+              class="w-100 display-3 main-h1 py-2"
+              data-aos="zoom-in"
+              data-aos-easing="ease"
+              data-aos-delay="800"
+            >
+              AOS
+            </h1>
+
+            <p
+              class="w-100 fs-4 text-white fw-normal main-p py-4"
+              data-aos="fade-up"
+              data-aos-easing="ease"
+              data-aos-delay="800"
+            >
+              Animate On Scroll Library
+            </p>
+          </div>
+
+          <div
+            class="container-fluid container-home d-flex flex-column justify-content-center align-items-center text-center w-100"
+          >
+            <div
+              class="scroll d-flex flex-column justify-content-center align-items-center text-white w-100"
+            >
+              <p class="text-white fs-6 fw-normal w-100 scroll-p">
+                SCROLL DOWN
+              </p>
+              <a
+                href="#SectionAnima"
+                class="bi bi-chevron-down fs-2 fw-bolder scroll-icon"
+              ></a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-anima" id="SectionAnima">
+          <div
+            class="container container-anim d-flex flex-column justify-content-center align-items-center text-center"
+          >
+            <div
+              class="row row-anima py-4 w-100 d-flex justify-content-center align-items-center text-center mt-5"
+            >
+              <h1 class="fs-4 text-white fw-normal anima-h1">FADE</h1>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="fade-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "fade-up" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="fade-down"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "fade-down" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="fade-right"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "fade-right" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="fade-left"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "fade-left" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="fade-up-right"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "fade-up-right" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="fade-up-left"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "fade-up-left" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="fade-down-right"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "fade-down-right" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="fade-down-left"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "fade-down-left" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row row-anima py-4 w-100 d-flex justify-content-center align-items-center text-center mt-5"
+            >
+              <h1 class="fs-4 text-white fw-normal anima-h1">FLIP</h1>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="flip-left"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "flip-left" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="flip-right"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "flip-right" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="flip-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "flip-up" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="flip-down"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "flip-down" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row row-anima py-4 w-100 d-flex justify-content-center align-items-center text-center mt-5"
+            >
+              <h1 class="fs-4 text-white fw-normal anima-h1">ZOOM</h1>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-in"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-in" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-in-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-in-up" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-in-down"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-in-down" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-in-left"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-in-left" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-in-right"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-in-right" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-out"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-out" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-out-up"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-out-up" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-out-down"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-out-down" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5 py-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start mt-5"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-out-right"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-out-right" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end"
+              >
+                <div
+                  class="card card-anima d-flex flex-row justify-content-start align-items-center py-2"
+                  data-aos="zoom-out-left"
+                  data-aos-easing="ease"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-wrap justify-content-start align-items-center px-3 gap-1"
+                  >
+                    <span class="tag"> &ltdiv </span>
+                    <span class="attribute"> data-aos </span>
+                    <span class="tag"> = </span>
+                    <span class="value"> "zoom-out-left" </span>
+                    <span class="tag"> &gt&lt/div&gt </span>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row row-anima py-4 w-100 d-flex justify-content-center align-items-center text-center mt-5"
+            >
+              <h1 class="fs-4 text-white fw-normal anima-h1">
+                DIFFERENT SETTINGS EXAMPLES
+              </h1>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center py-1"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-up" </span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-duration</span>
+                      <span class="tag">=</span>
+                      <span class="value">"3000"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center py-1"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-down" </span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-easing</span>
+                      <span class="tag">=</span>
+                      <span class="value">"linear"</span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-duration</span>
+                      <span class="tag">=</span>
+                      <span class="value">"1500"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center py-1"
+                  data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-right" </span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-offset</span>
+                      <span class="tag">=</span>
+                      <span class="value">"300"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-easing</span>
+                      <span class="tag">=</span>
+                      <span class="value">"ease-in-sine"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center py-1"
+                  data-aos="fade-left"
+                  data-aos-offset="500"
+                  data-aos-duration="500"
+                  data-aos-anchor="#example-anchor"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start px-3 py-3 gap-1"
+                  >
+                    <div class="">
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-left" </span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-anchor</span>
+                      <span class="tag">=</span>
+                      <span class="value">"#example-anchor"</span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-offset</span>
+                      <span class="tag">=</span>
+                      <span class="value">"500"</span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-duration</span>
+                      <span class="tag">=</span>
+                      <span class="value">"500"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center py-1"
+                  data-aos="fade-zoom-in"
+                  data-aos-offset="0"
+                  data-aos-easing="ease-in-back"
+                  data-aos-delay="300"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-zoom-in" </span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-easing</span>
+                      <span class="tag">=</span>
+                      <span class="value">"ease-in-back"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-offset</span>
+                      <span class="tag">=</span>
+                      <span class="value">"0"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="px-5">
+                      <span class="attribute">data-aos-delay</span>
+                      <span class="tag">=</span>
+                      <span class="value">"300"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center py-1"
+                  data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                >
+                  >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "flip-left" </span>
+                    </div>
+                    <div class="px-4">
+                      <span class="attribute">data-aos-easing</span>
+                      <span class="tag">=</span>
+                      <span class="value">"ease-out-cubic"</span>
+                    </div>
+
+                    <div class="px-5">
+                      <span class="attribute">data-aos-duration</span>
+                      <span class="tag">=</span>
+                      <span class="value">"2000"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row row-anima py-4 w-100 d-flex justify-content-center align-items-center text-center mt-5"
+            >
+              <h1 class="fs-4 text-white fw-normal anima-h1">
+                ANCHOR PLACEMENT
+              </h1>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start text-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-up" </span>
+                    </div>
+                    <div class="w-100 text-start px-4">
+                      <span class="attribute"> data-aos-anchor-placement</span>
+                      <span class="tag">=</span>
+                      <span class="value">"top-bottom"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start text-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-up" </span>
+                    </div>
+                    <div class="w-100 text-start px-4">
+                      <span class="attribute"> data-aos-anchor-placement</span>
+                      <span class="tag">=</span>
+                      <span class="value">"center-bottom"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start text-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-up" </span>
+                    </div>
+                    <div class="w-100 text-start px-4">
+                      <span class="attribute"> data-aos-anchor-placement</span>
+                      <span class="tag">=</span>
+                      <span class="value">"bottom-bottom"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-center"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start text-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-up" </span>
+                    </div>
+                    <div class="w-100 text-start px-4">
+                      <span class="attribute"> data-aos-anchor-placement</span>
+                      <span class="tag">=</span>
+                      <span class="value">"bottom-center"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-start"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-center"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start text-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-up" </span>
+                    </div>
+                    <div class="w-100 text-start px-4">
+                      <span class="attribute"> data-aos-anchor-placement</span>
+                      <span class="tag">=</span>
+                      <span class="value">"center-center"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <div
+                class="col-anima w-100 d-flex flex-wrap align-items-center justify-content-end"
+              >
+                <div
+                  class="card card-anima-2 d-flex flex-row justify-content-start align-items-center"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-center"
+                >
+                  <code
+                    class="code d-flex flex-column justify-content-start align-items-start text-start px-3 py-3 gap-1"
+                  >
+                    <div>
+                      <span class="tag"> &ltdiv </span>
+                      <span class="attribute"> data-aos </span>
+                      <span class="tag"> = </span>
+                      <span class="value"> "fade-up" </span>
+                    </div>
+                    <div class="w-100 text-start px-4">
+                      <span class="attribute"> data-aos-anchor-placement</span>
+                      <span class="tag">=</span>
+                      <span class="value">"bottom-center"</span>
+                      <span class="tag">&gt</span>
+                    </div>
+                    <div class="">
+                      <span class="tag"> &lt/div&gt </span>
+                    </div>
+                  </code>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="container-fluid py-5 container-footer d-flex flex-column justify-content-center align-items-center mt-5"
+          >
+            <div
+              class="container row-footer w-100 d-flex flex-column justify-content-center align-items-start py-5 gap-4"
+            >
+              <h4 class="fs-5 text-white footer-h4">GET IT</h4>
+              <div
+                class="d-flex flex-wrap justify-content-start align-items-center gap-4 w-100"
+              >
+                <a
+                  href="#"
+                  class="px-3 py-2 fs-6 text-decoration-none download-btn"
+                  >Download</a
+                >
+                <a
+                  href="#"
+                  class="px-4 py-2 fs-6 text-decoration-none github-btn"
+                  >View on Github</a
+                >
+              </div>
+            </div>
+            <div
+              class="container row-footer w-100 d-flex flex-column justify-content-center align-items-start py-5 px-5 gap-4"
+            >
+              <h4 class="fs-5 text-white footer-h4 py-2">
+                INSTALL USING YARN, NPM, BOWER
+              </h4>
+              <div class="yarn fs-6 px-3 font-monospace py-3 w-100">
+                <span class="yarn-span font-monospace">yarn</span> add aos
+              </div>
+              <div class="npm fs-6 px-3 font-monospace py-3 w-100">
+                npm <span class="npm-span font-monospace">install</span> aos
+                --save
+              </div>
+              <div class="brower fs-6 px-3 font-monospace py-3 w-100">
+                bower
+                <span class="brower-span font-monospace">install</span> aos
+                --save
+              </div>
+            </div>
+
+            <div
+              class="container row-footer w-100 d-flex flex-column justify-content-center align-items-start py-5 px-5 gap-4"
+            >
+              <h4 class="fs-5 text-white footer-h4 py-2">CDN SOURCES</h4>
+
+              <h6 class="fs-6 footer-h6 py-2">CSS</h6>
+              <code
+                class="link-code d-flex flex-wrap justify-content-start align-items-center w-100 gap-1 py-3 px-3 fs-6"
+              >
+                &lt<span class="link-link">link</span>href=<span
+                  class="link-value"
+                  >"https://unpkg.com/aos<span class="link-a">@2</span
+                  >.3.1/dist/aos.css"</span
+                >
+                rel=
+                <span class="link-value">"stylesheet"</span> &gt
+              </code>
+
+              <h6 class="fs-6 footer-h6 py-2">JS</h6>
+              <code
+                class="link-code d-flex flex-wrap justify-content-start align-items-center w-100 gap-1 py-3 px-3 fs-6"
+              >
+                &lt
+                <span class="link-link">script</span>
+                src=<span class="link-value">
+                  "https://unpkg.com/aos@2.3.1/dist/aos.js"</span
+                >
+
+                &gt
+              </code>
+            </div>
+
+            <div
+              class="container row-footer w-100 d-flex flex-column justify-content-center align-items-start py-5 px-5 gap-4"
+            >
+              <h4 class="fs-5 text-white footer-h4 py-2">INITIALIZE AOS</h4>
+
+              <code
+                class="link-code d-flex flex-wrap justify-content-start align-items-center w-100 gap-1 py-3 px-3 fs-6"
+              >
+                <span class="w-100 script-link">&ltscript&gt</span>
+                <span class="px-3 w-100 aos-link"> AOS.init();</span>
+                <span class="w-100 script-link">&lt/script&gt</span>
+              </code>
+            </div>
+
+            <div
+              class="container w-100 d-flex flex-wrap justify-content-center align-items-center mt-5"
+            >
+              <code
+                class="link-code display-6 d-flex flex-wrap justify-content-start align-items-center w-100 py-3 px-3 fs-6"
+              >
+                AOS. © 2024 - Designed by HzF__Designer
+              </code>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
