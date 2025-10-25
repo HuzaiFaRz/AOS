@@ -30,12 +30,12 @@ body {
 }
 @font-face {
   font-family: font-1;
-  src: url(Helvetica.ttf);
+  src: url(./Fonts/Helvetica.ttf);
 }
 
 @font-face {
   font-family: font-2;
-  src: url(TAHOMA_0.TTF);
+  src: url(./Fonts/TAHOMA_0.TTF);
 }
 
 main {
@@ -46,7 +46,7 @@ main {
 
   width: 100%;
   height: 100%;
-  background-image: url(default-bg.jpg);
+  background-image: url(./Images/Background.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
