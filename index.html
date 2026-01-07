@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AOS - Animate on scroll library</title>
-    <link rel="shortcut icon" href="./Images/Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./Images/Logo.png" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
@@ -1208,8 +1208,8 @@
             >
               <code
                 class="link-code display-6 d-flex flex-wrap justify-content-start align-items-center w-100 py-3 px-3 fs-6"
+                id="copyright"
               >
-                AOS. © 2024 - Designed by HzF__Designer
               </code>
             </div>
           </div>
@@ -1224,6 +1224,10 @@
     ></script>
     <script>
       AOS.init();
+      const date = new Date();
+      document.querySelector(
+        "#copyright"
+      ).innerHTML = `AOS. © ${date.getFullYear()} - Designed by HzF__Designer`;
     </script>
   </body>
 </html>
